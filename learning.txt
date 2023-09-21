@@ -1,0 +1,14 @@
+virtual enviornment is for isolate the dependencies, for encapsulation
+Project local python enviornment
+Updates to the virtual enviornment do not affect the global installation
+help to ensure that an applicatiob will work wit hte exact dependencies
+
+It does create a new folder
+command - python -m venv <enviornment-name>
+
+python -m venv wenv 
+ .\wenv\Scripts\activate.bat
+.\wenv\Scripts\activate.ps1
+pip install flask
+ pip freeze > requirements.txt 
+ == pinned version , >= ,<= ~
